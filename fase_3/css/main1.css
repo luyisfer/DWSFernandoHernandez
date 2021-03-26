@@ -45,3 +45,13 @@ ul, ol {
     display: block;
     
 } 
+.container article{
+    background: #A5D1DF;
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    display: grid;
+    gap: 1.6em;
+    font-size: 20px;
+}
+
