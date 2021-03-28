@@ -6,7 +6,7 @@
     margin: 0px;
     padding: 0px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 #menu li {
     flex-grow: 1;
@@ -46,12 +46,34 @@ ul, ol {
     
 } 
 .container article{
-    background: #A5D1DF;
+    background: #F2F3F4;
     width: 90%;
     max-width: 1000px;
     margin: 1.6em auto;
     display: grid;
     gap: 1.6em;
     font-size: 20px;
+    grid-template-columns: repeat(2,1fr);
 }
+.container > .header,
+.container > .content,
+.container > .sidebar,
+.container > .footer,
+.container > .div{
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #000;
+}
+    .container .header,
+    .container .footer {
+        grid-column: 1/2;
+        background: #1e272e;
+        color: #fff;
+    }
+    .container .content {
+        grid-column: span 2;
+    }
+    .container .sidebar {
+        grid-column: span 2;
+    }    
 
