@@ -1,0 +1,38 @@
+    header {
+        /* enable flex mode. */
+        display: flex;
+        /*llama todo el espacio del header. */
+        justify-content: space-between;
+        /* alinear los elementos en el centro. */
+        align-items: center;
+     
+     
+    }
+  
+  
+    header{
+        grid-column: 1/8;
+        background-color: rgb(95, 108, 109);
+        text-align: center;
+    }
+        
+section {
+    background-color:  rgb(175, 194, 194);
+    font-size: 20px;
+    
+}
+
+footer {
+        padding: 20px;
+        
+        background-color:  rgb(95, 108, 109);
+        color: #fff;
+        text-align: center;
+}
+
+aside {
+    
+    background: rgb(132, 209, 245);
+    text-align: center;
+
+}
