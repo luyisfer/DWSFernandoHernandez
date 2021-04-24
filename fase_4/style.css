@@ -1,3 +1,15 @@
+    .contenedor{
+
+    }
+    @media (max-width:600px){
+        .contenedor{
+            background-color: brown;
+        }
+    }
+    header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
     header {
         /* enable flex mode. */
         display: flex;
